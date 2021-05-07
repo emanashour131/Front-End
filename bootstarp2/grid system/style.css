@@ -1,0 +1,60 @@
+body {
+
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    height: 600px;
+    background-image: url('back2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.low {
+    margin-top: 0px;
+    margin-bottom: 0;
+    padding: 20px;
+    /* position: fixed;*/
+}
+
+.low li {
+    margin-left: 0;
+    padding-right: 25px;
+}
+
+.low a {
+    text-decoration: none;
+    color: black;
+    color: black;
+}
+
+.low a:hover {
+    font-size: larger;
+}
+
+.low .search-container {
+    float: right;
+}
+
+.low input[type=text] {
+    padding: 6px;
+    margin-top: -3px;
+    font-size: 17px;
+    border: none;
+}
+
+.low .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: -34px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
